@@ -1,0 +1,197 @@
+*{margin:0;padding:0}
+body{
+	
+	background:url(img/mec.jpg);
+	margin: 20px auto;
+
+	background-position: top;
+}
+.main_wrap{
+	width: 100%;
+
+}
+.wrap{
+	width: 960px;
+	display: block;
+	margin: 0 auto;
+}
+.header_bg{
+	background:red;	 
+}
+#wrapper{
+	width:960px;
+	margin:20px auto;
+}
+#header{
+
+	background:url(img/mec2.jpg);	
+	
+	padding:15px;
+	border-bottom:5px solid #000000;
+	
+}
+#header h2{
+	color:#f1f2ff;
+	font-family:georgia;
+}
+#header p{
+	color:#000000;
+	font-family:georgia;
+}
+
+#nav{
+	background-color:#fff;
+	height:38px;
+	border-bottom:5px solid #000000;
+	
+}
+#nav ul{
+	background-color:#fff;
+	list-style-type:none;
+	z-index:999;
+}
+#nav ul li{
+	float:left;
+	border-right:1px solid	#000000;
+}
+#nav ul li:last-child{
+	border:none
+}
+#nav ul li a{
+	text-decoration:none;
+	color:#000000;
+	display:block;
+	padding:10px 20px;
+	font-family:arial;
+	transition: 0.3s all ease;
+}
+#nav ul li a:hover{
+	color:blue;
+background: black;
+}
+
+
+#nav ul li{
+	position:relative;
+}
+#nav ul li ul{
+	position:absolute;left:-99999px;
+	background:#fff;
+}
+#nav ul li:hover ul{
+	left:0;
+}
+#nav ul li ul li:first-child{
+	border-top:1px solid#000000;
+}
+#nav ul li ul li{
+	float:none;
+	border-right:none;
+	border-bottom:1px solid #000000;
+	width:200px;
+}
+
+#slider_wrapper{
+	
+}
+
+#content_wrapper{
+	background-color:#fff;
+	border-top:5px solid #000000;
+	padding:10px;
+	overflow:hidden;
+}
+#content{
+	width:620px;
+	margin-right:20px;
+	float:left;
+}
+#content h2{
+	color:#000000;
+	font-family:arial;
+	margin-bottom:5px;
+	margin-top:10px;
+}
+#sidebar{
+	width:300px;
+	float:left
+}
+#sidebar ul{
+	list-style-type:circle
+}
+#sidebar ul li a{
+	text-decoration:none;
+	color:#000000;
+	padding:3px;
+	display:block;
+}
+#sidebar h2{
+	color:#000000;
+}
+#footer{
+	background-color:#635548;
+	padding:10px;
+	text-align:center;
+}
+#footer p{
+	color:#fff;
+}
+.maher
+{
+	background: url(img/mec.jpg);
+	height: 300px;
+	width: 300px;
+	margin-right: 20px;
+        position: top;
+
+	
+}
+.box{
+	width:200px;
+	float:left;
+	margin-right:0;
+	background: url(img/b.jpeg);
+	background-position: top;
+        color: white;
+
+}
+div#sticker{
+	background:green;
+	color:#fff;
+}
+.stick {
+	position:fixed;
+	top:0px;
+	z-index:999999999999;
+}
+#social_area{
+	list-style-type:none;
+	border:1px solid green;
+	padding:10px;
+	width:336px;
+}
+#social_area li{
+	display:inline;
+margin-right:10px;
+	
+}
+#social_area li img{
+	width:64px;
+	height:64px;
+}
+.column {
+  float: left;
+  width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
